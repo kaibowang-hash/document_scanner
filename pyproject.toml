@@ -1,0 +1,17 @@
+[project]
+name = "document_scanner"
+authors = [
+	{ name = "JCE", email = "kaibo_wang@whjichen.cn" }
+]
+description = "Global document scanner for Frappe uploads"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+	# "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
